@@ -1,0 +1,13 @@
+.app {
+  margin: 0 auto;
+}
+
+.app>.app-layout {
+  margin: 0 auto;
+  max-width: 73.4375rem;
+}
+
+.app-container {
+  min-height: 100vh;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}

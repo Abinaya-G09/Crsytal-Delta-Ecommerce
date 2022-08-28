@@ -1,0 +1,45 @@
+.main-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-absolute {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+.absolute-img {
+  position: absolute;
+  right: 20px;
+  top: 25%;
+}
+
+.home-banner-title>p {
+  font-size: 60px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.home-banner-description>p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.home-banner-description>.bg-btn {
+  font-size: 14px;
+  color: white;
+  background: #f06a22;
+  border: 1px solid #f06a22;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.orange {
+  color: #f06a22;
+}
+
+.blue {
+  color: #61dafb;
+}

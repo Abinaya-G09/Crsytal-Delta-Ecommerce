@@ -1,0 +1,67 @@
+.absolute-product {
+  position: absolute;
+  left: 1%;
+  top: 15%;
+}
+
+.login-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+label {
+  font-size: 16px;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+input {
+  font-size: 14px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid darkgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  background-color: white !important;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.login-btn {
+  margin-top: 20px;
+  font-size: 14px;
+  color: white;
+  background: #f06a22;
+  border: 1px solid #f06a22;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+}

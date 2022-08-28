@@ -1,0 +1,33 @@
+.navbar-layout {
+  margin: 0 auto;
+  max-width: 73.4375rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+}
+
+.navbar-rightmost>.no-bg-btn {
+  margin-right: 10px;
+  background: none;
+  border: 0px;
+  color: #f06a22;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navbar-rightmost>.bg-btn {
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  background: #f06a22;
+  border: 1px solid #f06a22;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
